@@ -74,5 +74,5 @@ jobs:
           title: Draft Release
           draft: true
           prerelease: false
-	  files: |
-	    ./artifacts/PokeRogue-ubuntu-latest/PokeRogue-Linux.zip
+          files: |
+            ./artifacts/PokeRogue-ubuntu-latest/PokeRogue-Linux.zip

@@ -71,7 +71,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
         with:
-          GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
           tag_name: draft
           release_name: Draft Release
           draft: true

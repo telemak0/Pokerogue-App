@@ -67,12 +67,10 @@ jobs:
                  
       - name: Create Release
         id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+        uses: "marvinpinto/action-automatic-releases@latest"
         with:
-          tag_name: draft
-          release_name: Draft Release
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          title: Draft Release
           draft: true
           prerelease: false
 
